@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GitTSOne" time="49.286" tests="1" failures="0" errors="0">
+   <testsuite name="GitTSOne" tests="1" failures="0" errors="0" time="49.286" timestamp="2019-11-05 15:35:29" hostname="PAPPACS - WIMLAP1106.domgen.corp" id="Test Suites/GitTSOne">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\SKP\\Katalon files\\KatalonGitUde1\\Reports\\20191105_153521\\GitTSOne\\20191105_153521"/>
+         <property name="logFiles" value="C:\\SKP\\Katalon files\\KatalonGitUde1\\Reports\\20191105_153521\\GitTSOne\\20191105_153521\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PAPPACS - WIMLAP1106.domgen.corp"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 77.0.3865.90"/>
+         <property name="hostAddress" value="10.66.103.56"/>
+         <property name="sessionId" value="4c540a6bcff1294402fa2ad1bb9dcccd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/GitTestOne" time="47.386" classname="Test Cases/GitTestOne" status="PASSED">
+         <system-out><![CDATA[2019-11-05 15:35:30 - [TEST_CASE][PASSED] - Test Cases/GitTestOne: Test Cases/GitTestOne
+
+2019-11-05 15:35:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-05 15:35:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-05 15:35:32 - [MESSAGE][INFO] - Action delay is set to 1 seconds
+
+2019-11-05 15:35:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-05 15:35:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-11-05 15:35:42 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-11-05 15:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-11-05 15:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-11-05 15:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-11-05 15:35:48 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-11-05 15:35:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-11-05 15:35:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-11-05 15:35:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-11-05 15:35:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-11-05 15:35:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_CURA Healthcare Service/Tokyo CURA Healthcare Center"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/Tokyo CURA Healthcare Center'  using regular expression
+
+2019-11-05 15:35:57 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/Tokyo CURA Healthcare Center'  using regular expression
+
+2019-11-05 15:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/label_Medicaid")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+2019-11-05 15:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Medicaid' is clicked on
+
+2019-11-05 15:35:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_CURA Healthcare Service/Visit Date"), "15/11/2019"): Keys '15/11/2019' sent to object: 'Object Repository/Page_CURA Healthcare Service/Visit Date'
+
+2019-11-05 15:36:02 - [MESSAGE][PASSED] - Keys '15/11/2019' sent to object: 'Object Repository/Page_CURA Healthcare Service/Visit Date'
+
+2019-11-05 15:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/Appointment_comments"), "test one"): Text 'test one' is set on object 'Object Repository/Page_CURA Healthcare Service/Appointment_comments'
+
+2019-11-05 15:36:05 - [MESSAGE][PASSED] - Text 'test one' is set on object 'Object Repository/Page_CURA Healthcare Service/Appointment_comments'
+
+2019-11-05 15:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-11-05 15:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-11-05 15:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2019-11-05 15:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2019-11-05 15:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2019-11-05 15:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+2019-11-05 15:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2019-11-05 15:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+2019-11-05 15:36:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-05 15:36:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-05 15:35:29 - [TEST_SUITE][PASSED] - GitTSOne: Test Cases/GitTestOne]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
