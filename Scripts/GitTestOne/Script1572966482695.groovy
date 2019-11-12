@@ -33,7 +33,7 @@ WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service/Tokyo CUR
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Medicaid'))
 
-WebUI.sendKeys(findTestObject('Page_CURA Healthcare Service/Visit Date'), '20/11/2019')
+WebUI.sendKeys(findTestObject('Page_CURA Healthcare Service/Visit Date'), '18/11/2019')
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/Appointment_comments'), 'test one')
 
