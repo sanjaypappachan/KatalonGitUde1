@@ -33,7 +33,7 @@ WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service/Tokyo CUR
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Medicaid'))
 
-WebUI.sendKeys(findTestObject('Page_CURA Healthcare Service/Visit Date'), '15/11/2019')
+WebUI.sendKeys(findTestObject('Page_CURA Healthcare Service/Visit Date'), '20/11/2019')
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service/Appointment_comments'), 'test one')
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/butto
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Go to Homepage'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service/Hamburger_menu'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'))
 
